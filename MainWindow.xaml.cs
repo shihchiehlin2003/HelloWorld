@@ -29,5 +29,10 @@ namespace HelloWorld
         {
             
         }
+
+        private void BtnGo_Click(object sender, RoutedEventArgs e)
+        {
+            txtShow.Text = "Hello FGU!";
+        }
     }
 }
